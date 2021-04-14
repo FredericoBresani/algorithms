@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.corpo {
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column;
+  width: 40%;
+}
+.pergunta {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  justify-content: center;
+  align-items: center;
+  padding: 3vh 0 3vh 0;
+
+}
+.respostas {
+  display: flex;
+  background-color: rgb(243, 243, 243);
+  height: 20vh;
+}
+.submit {
+  display: flex;
+  background-color: rgb(173, 173, 255);
+  flex-direction: column;
+  justify-content: space-around;
+}
+.submit button{
+  width: 100%;
+  outline: 0;
+  border: 0;
+  height: 5vh;
+  background-color: rgb(66, 66, 196);
+  color: white;
+  cursor: pointer;
+}
+.opt {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  list-style: none;
+}
+.opt li {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 5%;
+  cursor: pointer;
+}
+.bolinhas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 2vh 0 2vh;
+}
+.correta {
+  display: none;
+}

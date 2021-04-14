@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-image: url("neve.jpg");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    margin: 5vh 0 5vh 0;
+}
+.corpo input{
+    width: 20%;
+}
+.entradas {
+ display: flex;  
+ justify-content: space-around; 
+}
+.botoes {   
+    display: flex;
+    
+}
+.botoes button {
+    width: 10vh;
+}
+.clock {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+.s,
+.m,
+.h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
